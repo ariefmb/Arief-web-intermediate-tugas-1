@@ -3,8 +3,19 @@
   /*
    * Buatlah minimal 5 konfigurasi ESLint untuk opsi RULES.
    * Selanjutnya, install Prettier secara lokal dan buatlah minimal 3 opsi konfigurasi.
-  */
+   */
   "rules": {
-    "semi" : ["error", "always"] 
+    "semi": ["error", "always"],
+    "semi-spacing": "error",
+    "keyword-spacing": [
+      "error", {"overrides": {
+          "if": { "after": false },
+          "for": { "after": true },
+          "while": { "after": true }
+        }
+      }
+    ],
+    "object-curly-spacing": ["error", "never"],
+    "comma-spacing": ["error", { "before": false, "after": true }]
   }
 }
