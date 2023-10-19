@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import moving from 'assets/moving.jpeg';
+import moving from '@/assets/moving.jpeg';
 import Link from 'next/link';
 
 const Moving = () => {
