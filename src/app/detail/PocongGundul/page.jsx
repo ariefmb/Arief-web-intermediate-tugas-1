@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import pocong from '@/assets/pocongGundul.jpg';
+import pocong from 'assets/pocongGundul.jpg';
 import Link from 'next/link';
 
 const PocongGundul = () => {

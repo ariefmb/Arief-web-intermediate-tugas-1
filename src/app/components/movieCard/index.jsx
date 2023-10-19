@@ -1,13 +1,13 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import genV from '@/app/assets/genV.jpeg';
-import loki from '@/app/assets/loki2.jpeg';
-import moving from '@/app/assets/moving.jpeg';
-import pocong from '@/app/assets/pocongGundul.jpg';
+import genV from 'assets/genV.jpeg';
+import loki from 'assets/loki2.jpeg';
+import moving from 'assets/moving.jpeg';
+import pocong from 'assets/pocongGundul.jpg';
 
 const movieCard = () => {
     return (
-        <div className="grid grid-cols-6 gap-10">
+        <div className="grid grid-cols-6 gap-5">
             <Link href="/detail/GenV">
                 <ul>
                     <Image src={genV} alt="" width={500} height={650} />

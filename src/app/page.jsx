@@ -1,4 +1,4 @@
-import MovieCard from "@/app/components/movieCard";
+import MovieCard from "components/movieCard";
 import Link from "next/link";
 
 const Home = () => {
@@ -8,7 +8,7 @@ const Home = () => {
             <MovieCard />
             <h1 className="font-bold">KENAL LEBIH JAUH DENGAN AUTHOR</h1>
             <Link href='/profile'>
-                <button className="bg-blue-500 p-2 border-rounded-5">Profile Author</button>
+                <button className="bg-blue-500 p-2">Profile Author</button>
             </Link>
         </div>
     );

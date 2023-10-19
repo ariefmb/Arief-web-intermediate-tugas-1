@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import genV from '@/assets/genV.jpeg';
+import genV from 'assets/genV.jpeg';
 import Link from 'next/link';
 
 const GenV = () => {

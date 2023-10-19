@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import loki from '@/assets/loki2.jpeg';
+import loki from 'assets/loki2.jpeg';
 import Link from 'next/link';
 
 const Loki = () => {

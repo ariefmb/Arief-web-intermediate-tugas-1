@@ -4,6 +4,7 @@
 
 *, *::before, *::after {
   padding: 5px;
+  margin: 5px;
 }
 
 img {
@@ -11,9 +12,12 @@ img {
   height: 100%;
   transition: .3s ease-in-out;
   cursor: pointer;
-  margin: 0 0;
 }
 
 img:hover {
   scale: 105%;
+}
+
+ol {
+  list-style-type:decimal;
 }
