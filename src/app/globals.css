@@ -31,3 +31,13 @@ ol {
 .top-anime-list p {
   padding-left: 500px;
 }
+
+.anime-detail-page {
+  display: flex;
+  align-items: center;
+}
+
+.anime-detail-page img {
+  width: 500;
+  height : auto;
+}

@@ -9,7 +9,7 @@
     "semi-spacing": "error",
     "keyword-spacing": [
       "error", {"overrides": {
-          "if": { "after": false },
+          "if": { "after": true },
           "for": { "after": true },
           "while": { "after": true }
         }
