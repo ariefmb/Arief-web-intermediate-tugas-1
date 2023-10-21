@@ -22,15 +22,21 @@ const detailAnime = async ({params}) => {
     return (
         <>
             <div className="anime-detail-page">
-                <Image src={animeData.image} alt="" width={300} height={500} />
+                <Image
+                    src={animeData.image}
+                    alt=""
+                    width={300}
+                    height={500}
+                    blurDataURL="blur"
+                />
                 <div className="sinopsis">
-                    <h1>{animeData.title}</h1>
+                    <h1 className="font-bold">{animeData.title}</h1>
                     <p>{animeData.description}</p>
                 </div>
             </div>
             <div>
                 <Link href="\anime">
-                    <button className="px-[2rem] py-[1rem] rounded-lg m-[2rem] text-[#810556] bg-green-300 hover:bg-green-500">
+                    <button className="px-[7rem] py-[3rem] rounded-lg m-[2rem] text-[#810556] bg-green-300 hover:bg-green-500">
                         Arbitrary Test
                     </button>
                 </Link>

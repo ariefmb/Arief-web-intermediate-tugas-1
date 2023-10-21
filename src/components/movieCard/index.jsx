@@ -7,29 +7,33 @@ import pocong from 'assets/pocongGundul.jpg';
 
 const movieCard = () => {
     return (
-        <div className="grid grid-cols-6 gap-2">
-            <Link href="/detail/GenV">
-                <ul>
-                    <Image src={genV} alt="" width={500} height={650} />
-                </ul>
-            </Link>
-            <Link href="/detail/Loki">
-                <ul>
-                    <Image src={loki} alt="" width={500} height={650} />
-                </ul>
-            </Link>
-            <Link href="/detail/Moving">
-                <ul>
-                    <Image src={moving} alt="" width={500} height={650} />
-                </ul>
-            </Link>
-            <Link href="/detail/PocongGundul">
-                <ul>
-                    <Image src={pocong} alt="" width={500} height={650} />
-                </ul>
-            </Link>
-            <br />
-        </div>
+        <>
+            <h1 className="font-bold">Popular Series List</h1>
+
+            <div className="grid grid-cols-6 gap-2">
+                <Link href="/detail/GenV">
+                    <ul>
+                        <Image src={genV} alt="" width={500} height={650} />
+                    </ul>
+                </Link>
+                <Link href="/detail/Loki">
+                    <ul>
+                        <Image src={loki} alt="" width={500} height={650} />
+                    </ul>
+                </Link>
+                <Link href="/detail/Moving">
+                    <ul>
+                        <Image src={moving} alt="" width={500} height={650} />
+                    </ul>
+                </Link>
+                <Link href="/detail/PocongGundul">
+                    <ul>
+                        <Image src={pocong} alt="" width={500} height={650} />
+                    </ul>
+                </Link>
+                <br />
+            </div>
+        </>
     );
 };
 

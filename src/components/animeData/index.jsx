@@ -34,7 +34,7 @@ export async function getAnimeData(id) {
             title: 'Jujutsu Kaisen',
             description:
                 '"Jujutsu Kaisen" mengisahkan tentang Yuji Itadori, seorang siswa biasa yang tanpa sengaja terlibat dalam dunia ilmu gaib setelah menemukan benda terkutuk yang sangat kuat. Dia bergabung dengan Sekolah Jujutsu untuk melawan makhluk-makhluk terkutuk dan iblis yang mengancam manusia. Anime ini penuh dengan aksi, pertarungan spektakuler, dan konflik antara kekuatan supernatural yang menarik.',
-            image: 'https://i.pinimg.com/564x/3b/06/c8/3b06c8f86dc393ec9284f946c6184d6b.jpg',
+            image: 'https://i.pinimg.com/564x/61/7f/31/617f31f38693db9e82520a5e15e864fc.jpg',
         },
     };
     return setData[id];

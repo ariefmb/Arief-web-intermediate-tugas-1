@@ -1,6 +1,7 @@
 require('dotenv').config();
 
 import Link from 'next/link';
+import Image from 'next/image';
 import {useEffect} from 'react';
 
 const AnimeCard = () => {
@@ -20,9 +21,11 @@ const AnimeCard = () => {
             </div>
             <div className="grid grid-cols-6 gap-5">
                 <picture>
-                    <img
+                    <Image
                         src="https://upload.wikimedia.org/wikipedia/en/7/7e/Fullmetal_Alchemist_Brotherhood_key_visual.png"
                         alt=""
+                        width={350}
+                        height={500}
                     />
                     <p className="text-center font-bold">
                         Fullmetal Alchemist Brotherhood

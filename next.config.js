@@ -10,6 +10,10 @@ const nextConfig = {
                 protocol: 'https',
                 hostname: process.env.NEXT_PUBLIC_WIKIPEDIA_URL,
             },
+            {
+                protocol: 'https',
+                hostname: process.env.NEXT_PUBLIC_PINTEREST_URL,
+            },
         ],
     },
 };
