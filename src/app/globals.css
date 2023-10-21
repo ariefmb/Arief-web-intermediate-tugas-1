@@ -9,15 +9,25 @@
 
 img {
   width: auto;
-  height: 100%;
+  height: 250px;
   transition: .3s ease-in-out;
   cursor: pointer;
 }
 
 img:hover {
   scale: 105%;
+  box-shadow: 5px 5px 10px 0px rgb(58, 185, 185);
 }
 
 ol {
   list-style-type:decimal;
+}
+
+.top-anime-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.top-anime-list p {
+  padding-left: 500px;
 }

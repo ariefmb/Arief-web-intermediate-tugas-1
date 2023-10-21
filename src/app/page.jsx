@@ -1,18 +1,21 @@
+'use client';
+
 import MovieCard from '@/components/movieCard';
+import AnimeCard from '@/components/animeCard';
 import Link from 'next/link';
 
 const Home = () => {
     return (
-        <div>
+        <main>
             <h1 className="font-bold">SELAMAT DATANG DI WEBSITE MOVIE</h1>
-            <MovieCard />
-            <h1 className="font-bold">KENAL LEBIH JAUH DENGAN AUTHOR</h1>
-            <Link href="/profile">
-                <button className="bg-blue-500 p-2 rounded-lg hover:bg-blue-700 text-white">
-                    Profile Author
-                </button>
-            </Link>
-        </div>
+            <div className="popular-list">
+                <h1 className='font-bold'>Popular Series List</h1>
+                <MovieCard />
+            </div>
+            <div className="anime-list">
+                <AnimeCard />
+            </div>
+        </main>
     );
 };
 

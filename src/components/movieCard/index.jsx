@@ -7,7 +7,7 @@ import pocong from 'assets/pocongGundul.jpg';
 
 const movieCard = () => {
     return (
-        <div className="grid grid-cols-6 gap-5">
+        <div className="grid grid-cols-6 gap-2">
             <Link href="/detail/GenV">
                 <ul>
                     <Image src={genV} alt="" width={500} height={650} />
