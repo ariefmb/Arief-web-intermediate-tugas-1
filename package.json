@@ -16,6 +16,8 @@
     "react-router-dom": "^6.17.0"
   },
   "devDependencies": {
+    "@types/node": "20.8.7",
+    "@types/react": "18.2.31",
     "autoprefixer": "^10",
     "eslint": "^8",
     "eslint-config-next": "13.5.4",

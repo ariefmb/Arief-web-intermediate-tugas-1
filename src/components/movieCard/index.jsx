@@ -1,35 +1,46 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import genV from 'assets/genV.jpeg';
-import loki from 'assets/loki2.jpeg';
-import moving from 'assets/moving.jpeg';
-import pocong from 'assets/pocongGundul.jpg';
+import genV from '@/assets/genV.jpeg';
+import loki from '@/assets/loki2.jpeg';
+import moving from '@/assets/moving.jpeg';
+import blkmirror from '@/assets/blackMirror.jpg';
 
 const movieCard = () => {
     return (
         <>
-            <h1 className="font-bold">Popular Series List</h1>
-
+            <div className="top-movie-list">
+                <h1 className="font-bold">Movie List</h1>
+                <Link href="\movie">
+                    <p className="underline hover:cursor-pointer hover:text-blue-500">
+                        see all
+                    </p>
+                </Link>
+            </div>
             <div className="grid grid-cols-6 gap-2">
                 <Link href="/detail/GenV">
-                    <ul>
+                    <picture>
                         <Image src={genV} alt="" width={500} height={650} />
-                    </ul>
+                    </picture>
                 </Link>
                 <Link href="/detail/Loki">
-                    <ul>
+                    <picture>
                         <Image src={loki} alt="" width={500} height={650} />
-                    </ul>
+                    </picture>
                 </Link>
                 <Link href="/detail/Moving">
-                    <ul>
+                    <picture>
                         <Image src={moving} alt="" width={500} height={650} />
-                    </ul>
+                    </picture>
                 </Link>
-                <Link href="/detail/PocongGundul">
-                    <ul>
-                        <Image src={pocong} alt="" width={500} height={650} />
-                    </ul>
+                <Link href="/detail/BlackMirror">
+                    <picture>
+                        <Image
+                            src={blkmirror}
+                            alt=""
+                            width={500}
+                            height={650}
+                        />
+                    </picture>
                 </Link>
                 <br />
             </div>

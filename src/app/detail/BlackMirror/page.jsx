@@ -1,13 +1,13 @@
 import Image from 'next/image';
-import pocong from '@/assets/pocongGundul.jpg';
+import blckmirror from '@/assets/blackMirror.jpg';
 import Link from 'next/link';
 
-const PocongGundul = () => {
+const BlackMirror = () => {
     return (
         <div>
-            <Image src={pocong} alt="" width={500} height={550} />
+            <Image src={blckmirror} alt="" width={500} height={550} />
             <br />
-            <h1 className="font-bold">Ini detail film Pocong Gundul</h1>
+            <h1 className="font-bold">Ini detail film Black Mirror</h1>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Exercitationem corporis necessitatibus sequi, deleniti veritatis
@@ -22,4 +22,4 @@ const PocongGundul = () => {
     );
 };
 
-export default PocongGundul;
+export default BlackMirror;

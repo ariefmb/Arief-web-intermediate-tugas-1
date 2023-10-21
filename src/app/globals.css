@@ -41,3 +41,22 @@ ol {
   width: 500;
   height : auto;
 }
+
+.top-movie-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.top-movie-list p {
+  padding-left: 700px;
+}
+
+.movie-detail-page {
+  display: flex;
+  align-items: center;
+}
+
+.movie-detail-page img {
+  width: 500;
+  height : auto;
+}

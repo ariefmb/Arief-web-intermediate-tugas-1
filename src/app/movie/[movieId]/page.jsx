@@ -1,18 +1,18 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import {getAnimeData} from '@/components/animeData';
+import {getMovieData} from '@/components/movieData';
 
-const detailAnime = async ({params}) => {
-    const animeData = await getAnimeData(params.animeId);
+const detailMovie = async ({params}) => {
+    const movieData = await getMovieData(params.movieId);
 
-    if (!animeData) {
+    if (!movieData) {
         return (
             <div className="not-found">
-                <div className="font-bold">ANIME NOT FOUND!</div>
-                <Link href="\anime">
+                <div className="font-bold">MOVIE NOT FOUND!</div>
+                <Link href="\movie">
                     <button className="p-2 text-white bg-blue-300 rounded-lg hover:bg-blue-500">
-                        Kembali ke Anime Page
+                        Kembali ke Movie Page
                     </button>
                 </Link>
             </div>
@@ -21,21 +21,21 @@ const detailAnime = async ({params}) => {
 
     return (
         <>
-            <div className="anime-detail-page">
+            <div className="movie-detail-page">
                 <Image
-                    src={animeData.image}
+                    src={movieData.image}
                     alt=""
                     width={300}
                     height={500}
                     blurDataURL="blur"
                 />
                 <div className="sinopsis">
-                    <h1 className="font-bold">{animeData.title}</h1>
-                    <p>{animeData.description}</p>
+                    <h1 className="font-bold">{movieData.title}</h1>
+                    <p>{movieData.description}</p>
                 </div>
             </div>
             <div>
-                <Link href="\anime">
+                <Link href="\movie">
                     <button className="px-[7rem] py-[3rem] rounded-lg m-[2rem] text-[#810556] bg-green-300 hover:bg-green-500">
                         Arbitrary Test
                     </button>
@@ -44,4 +44,4 @@ const detailAnime = async ({params}) => {
         </>
     );
 };
-export default detailAnime;
+export default detailMovie;
