@@ -12,7 +12,7 @@ const Responsive = () => {
         <div className="flex flex-col items-center justify-center h-screen text-black">
             <Link
                 href="/"
-                className="responsive text-center w-full p-4 bg-blue-500 rounded-lg shadow-md lg:w-full md:w-1/2 sm:w-2/3"
+                className="responsive text-center w-full p-4 bg-blue-500 rounded-lg shadow-md xl:w-full lg:w-3/4 md:w-1/2 sm:w-2/3"
             >
                 <div className={poppins.className}>
                     <h1 className="mb-4 text-3xl font-bold text-center text-slate-800">
