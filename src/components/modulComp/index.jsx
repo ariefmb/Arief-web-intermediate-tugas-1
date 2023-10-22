@@ -7,6 +7,10 @@ const mont = Montserrat({
 });
 
 const ModulComp = () => {
-    return <div className={`${styles.modComp} ${mont.className}`}>Modul Component</div>;
+    return (
+        <div className={`${styles.modComp} ${mont.className}`}>
+            Modul Component
+        </div>
+    );
 };
 export default ModulComp;

@@ -36,7 +36,7 @@ const detailAnime = async ({params}) => {
             </div>
             <div>
                 <Link href="\anime">
-                    <button className="px-[7rem] py-[3rem] rounded-lg m-[2rem] text-[#810556] bg-green-300 hover:bg-green-500">
+                    <button className="px-[7rem] py-[3rem] rounded-lg m-[2rem] font-bold text-[#ffff] bg-green-300 hover:bg-green-500">
                         Arbitrary Test
                     </button>
                 </Link>

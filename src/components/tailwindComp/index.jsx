@@ -6,7 +6,9 @@ const playfair = Playfair_Display_SC({
 });
 const TailwindComp = () => {
     return (
-        <div className={`bg-gray-500 rounded-lg transition duration-3000 hover:cursor-pointer hover:bg-gray-400 ${playfair.className}`}>
+        <div
+            className={`bg-gray-500 rounded-lg transition duration-3000 hover:cursor-pointer hover:bg-gray-400 ${playfair.className}`}
+        >
             Tailwind Component
         </div>
     );

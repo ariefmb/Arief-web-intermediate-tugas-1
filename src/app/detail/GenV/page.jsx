@@ -17,7 +17,7 @@ const GenV = () => {
                 University.
             </p>
             <br />
-            <Link href="/" className="bg-blue-500">
+            <Link href="/" className="bg-blue-500 rounded-lg">
                 <button>Klik kembali ke Home</button>
             </Link>
         </div>

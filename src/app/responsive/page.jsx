@@ -1,4 +1,5 @@
 import {Poppins} from 'next/font/google';
+import Link from 'next/link';
 
 const poppins = Poppins({
     weight: '400',
@@ -8,17 +9,23 @@ const poppins = Poppins({
 
 const Responsive = () => {
     return (
-        <div className="flex flex-col items-center justify-center h-screen text-black bg-slate800">
-            <div className="responsive w-full p-4 bg-blue-200 rounded-lg shadow-md md:w-3/4 lg:w-1/2 xl:w-2/3">
+        <div className="flex flex-col items-center justify-center h-screen text-black">
+            <Link
+                href="/"
+                className="responsive text-center w-full p-4 bg-blue-500 rounded-lg shadow-md lg:w-full md:w-1/2 sm:w-2/3"
+            >
                 <div className={poppins.className}>
-                    <h1 className="mb-4 text-3xl font-semibold text-center text-slate-800">
-                        This is the responsive Page
+                    <h1 className="mb-4 text-3xl font-bold text-center text-slate-800">
+                        Responsive Page
                     </h1>
+                    <p className="font-semibold">
+                        Kamu bisa adjust screen semaumu
+                    </p>
                 </div>
                 <p className="text-lg text-center text-slate-800">
-                    You can make the content adapt to the size of the screen
+                    Klik kembali ke Home
                 </p>
-            </div>
+            </Link>
         </div>
     );
 };
