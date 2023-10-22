@@ -9,13 +9,17 @@ const BlackMirror = () => {
             <br />
             <h1 className="font-bold">Ini detail film Black Mirror</h1>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Exercitationem corporis necessitatibus sequi, deleniti veritatis
-                quibusdam inventore, repellat ex voluptas placeat beatae, itaque
-                harum pariatur quia mollitia possimus. Cupiditate, dolores hic?
+                Black Mirror adalah serial antologi yang menggali
+                konsep-konsep futuristik dan teknologi dalam masyarakat modern.
+                Setiap episode menghadirkan cerita berbeda tentang dampak
+                teknologi terhadap kehidupan manusia, sering kali dengan pesan
+                yang mencekam tentang dunia digital dan ketergantungan pada
+                perangkat modern. Serial ini mengajukan pertanyaan etis yang
+                mendalam tentang masa depan teknologi, komunikasi, dan perilaku
+                manusia.
             </p>
             <br />
-            <Link href="/" className='bg-blue-500'>
+            <Link href="/" className="bg-blue-500">
                 <button>Klik kembali ke Home</button>
             </Link>
         </div>

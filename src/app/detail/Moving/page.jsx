@@ -9,10 +9,14 @@ const Moving = () => {
             <br />
             <h1 className="font-bold">Ini detail film Moving</h1>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Exercitationem corporis necessitatibus sequi, deleniti veritatis
-                quibusdam inventore, repellat ex voluptas placeat beatae, itaque
-                harum pariatur quia mollitia possimus. Cupiditate, dolores hic?
+                Drama itu mengisahkan kehidupan orang-orang dengan kekuatan
+                super yang menghadapi ancaman misterius di Korea. Semua itu
+                bermula pada 1990-an, ketika Badan Intelijen Korea (NIS)
+                mendirikan tim elite rahasia yang beranggotakan manusia super.
+                Anggota satuan elite itu ditugaskan untuk menyelesaikan berbagai
+                misi mustahil dengan menggunakan kekuatan super mereka. Beberapa
+                personel satuan elite itu, yakni Jang Joo-won (Ryu Seung-ryong),
+                Lee Mi-hyeon (Han Hyo-joo), hingga Kim Doo-shik (Zo In-sung).
             </p>
             <br />
             <Link href="/" className="bg-blue-500">

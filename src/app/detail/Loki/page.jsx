@@ -9,10 +9,11 @@ const Loki = () => {
             <br />
             <h1 className="font-bold">Ini detail film Loki</h1>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Exercitationem corporis necessitatibus sequi, deleniti veritatis
-                quibusdam inventore, repellat ex voluptas placeat beatae, itaque
-                harum pariatur quia mollitia possimus. Cupiditate, dolores hic?
+                Dalam petualangannya Loki mengalami time slip atau keadaan
+                dimanan dirinya lompat dari satu waktu ke waktu lain. Hal ini
+                menyebabkan garis waktu semakin parah dan berpotensi memunculkan
+                varian dari He Who Remains yakni Kang The Qonqueror muncul untuk
+                menguasai semesta.
             </p>
             <br />
             <Link href="/" className="bg-blue-500">
