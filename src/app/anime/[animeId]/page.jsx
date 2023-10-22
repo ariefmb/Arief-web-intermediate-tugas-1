@@ -27,7 +27,8 @@ const detailAnime = async ({params}) => {
                     alt=""
                     width={300}
                     height={500}
-                    blurDataURL="blur"
+                    placeholder="blur"
+                    blurDataURL={animeData.image}
                 />
                 <div className="sinopsis">
                     <h1 className="font-bold">{animeData.title}</h1>
