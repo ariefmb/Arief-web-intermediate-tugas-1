@@ -1,0 +1,10 @@
+.modComp {
+    background-color: rgb(16, 143, 16);
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.modComp:hover {
+    background-color: rgb(121, 228, 121);
+    cursor: pointer;
+}
