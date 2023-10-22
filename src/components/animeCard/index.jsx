@@ -1,3 +1,4 @@
+'use client';
 require('dotenv').config();
 
 import Link from 'next/link';
@@ -22,7 +23,7 @@ const AnimeCard = () => {
             <div className="grid grid-cols-6 gap-5">
                 <picture>
                     <Image
-                        src="https://upload.wikimedia.org/wikipedia/en/7/7e/Fullmetal_Alchemist_Brotherhood_key_visual.png"
+                        src={`${process.env.NEXT_PUBLIC_WIKIPEDIA_URL}/wikipedia/en/7/7e/Fullmetal_Alchemist_Brotherhood_key_visual.png`}
                         alt=""
                         width={350}
                         height={500}
@@ -33,14 +34,14 @@ const AnimeCard = () => {
                 </picture>
                 <picture>
                     <img
-                        src="https://i.pinimg.com/564x/cd/17/a0/cd17a0714a4f1dcd5a7d979d8bc25aec.jpg"
+                        src={`${process.env.NEXT_PUBLIC_PINTEREST_URL}/564x/cd/17/a0/cd17a0714a4f1dcd5a7d979d8bc25aec.jpg`}
                         alt=""
                     />
                     <p className="text-center font-bold">Shingeki no Kyojin</p>
                 </picture>
                 <picture>
                     <img
-                        src="https://i.pinimg.com/564x/b8/98/ab/b898abd779491464d4b5ce881e43ca32.jpg"
+                        src={`${process.env.NEXT_PUBLIC_PINTEREST_URL}/564x/b8/98/ab/b898abd779491464d4b5ce881e43ca32.jpg`}
                         alt=""
                     />
                     <p className="text-center font-bold">Kimetsu no Yaiba</p>

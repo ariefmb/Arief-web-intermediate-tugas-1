@@ -19,7 +19,7 @@ const MovieCard = () => {
             <div className="grid grid-cols-6 gap-2">
                 <Link href="/detail/GenV">
                     <picture>
-                        <Image src={genV} alt="" width={500} height={650} />
+                        <Image src={genV} alt="" width={500} height={650} priority/>
                     </picture>
                 </Link>
                 <Link href="/detail/Loki">

@@ -9,7 +9,7 @@ import blkmirror from '@/assets/blackMirror.jpg';
 const Movie = () => {
     return (
         <div>
-            <h1 className="font-bold text-center">
+            <h1 className="font-bold text-center text-xl">
                 SELAMAT DATANG DI MOVIE LIST
             </h1>
             <p>Berikut beberapa movie popular yang dapat kamu lihat.</p>

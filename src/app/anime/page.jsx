@@ -5,7 +5,7 @@ import Link from 'next/link';
 const Anime = () => {
     return (
         <div>
-            <h1 className="font-bold text-center">SELAMAT DATANG DI ANIME LIST</h1>
+            <h1 className="font-bold text-center text-xl">SELAMAT DATANG DI ANIME LIST</h1>
             <p>Berikut beberapa anime popular yang dapat kamu lihat.</p>
             <div className="anime-card grid grid-cols-3 gap-1">
                 <ul>

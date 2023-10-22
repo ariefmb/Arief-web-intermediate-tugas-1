@@ -1,5 +1,3 @@
-'use client';
-
 import React from 'react';
 import Link from 'next/link';
 import MovieCard from '@/components/movieCard';
@@ -12,9 +10,13 @@ const roboto = Roboto({
 });
 
 const Home = () => {
+
+    console.log(`\nAPP NAME: ${process.env.APP_NAME}`);
+    console.log(`Description: ${process.env.DESC_APP}`);
+
     return (
         <main>
-            <h1 className="font-bold text-center">
+            <h1 className="font-bold text-center text-xl">
                 SELAMAT DATANG DI WEBSITE MOVIE
             </h1>
             <div className="popular-list">
@@ -31,6 +33,7 @@ const Home = () => {
                     Responsive Page
                 </Link>
             </div>
+            <div className=''>Components</div>
         </main>
     );
 };
