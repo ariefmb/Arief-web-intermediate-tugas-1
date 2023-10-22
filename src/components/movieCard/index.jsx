@@ -5,7 +5,7 @@ import loki from '@/assets/loki2.jpeg';
 import moving from '@/assets/moving.jpeg';
 import blkmirror from '@/assets/blackMirror.jpg';
 
-const movieCard = () => {
+const MovieCard = () => {
     return (
         <>
             <div className="top-movie-list">
@@ -48,4 +48,4 @@ const movieCard = () => {
     );
 };
 
-export default movieCard;
+export default MovieCard;

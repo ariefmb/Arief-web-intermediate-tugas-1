@@ -1,9 +1,15 @@
 'use client';
 
+import React from 'react';
 import Link from 'next/link';
 import MovieCard from '@/components/movieCard';
 import AnimeCard from '@/components/animeCard';
-import Responsive from './responsive/page';
+import {Roboto} from 'next/font/google';
+
+const roboto = Roboto({
+    weight: '500',
+    subsets: ['latin'],
+});
 
 const Home = () => {
     return (
@@ -17,10 +23,10 @@ const Home = () => {
             <div className="anime-list">
                 <AnimeCard />
             </div>
-            <div>
+            <div className={roboto.className}>
                 <Link
                     href="\responsive"
-                    className="flex p-3 font-bold text-center bg-green-200 rounded-lg hover:bg-green-500"
+                    className="flex justify-center transition duration-5000 p-3 font-bold text-center bg-green-300 rounded-lg hover:bg-green-500"
                 >
                     Responsive Page
                 </Link>

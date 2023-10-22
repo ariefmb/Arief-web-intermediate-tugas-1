@@ -2,61 +2,72 @@
 @tailwind components;
 @tailwind utilities;
 
-*, *::before, *::after {
-  padding: 5px;
-  margin: 5px;
+*,
+*::before,
+*::after {
+    padding: 5px;
+    margin: 5px;
 }
 
 img {
-  width: auto;
-  height: 250px;
-  transition: .3s ease-in-out;
-  cursor: pointer;
+    width: auto;
+    height: 250px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 img:hover {
-  scale: 105%;
-  box-shadow: 5px 5px 10px 0px rgb(58, 185, 185);
+    scale: 105%;
+    box-shadow: 5px 5px 10px 0px rgb(58, 185, 185);
 }
 
 ol {
-  list-style-type:decimal;
+    list-style-type: decimal;
 }
 
 .top-anime-list {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .top-anime-list p {
-  padding-left: 500px;
+    padding-left: 500px;
 }
 
 .anime-detail-page {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .anime-detail-page img {
-  width: 500;
-  height : auto;
+    width: 500;
+    height: auto;
 }
 
 .top-movie-list {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .top-movie-list p {
-  padding-left: 700px;
+    padding-left: 700px;
 }
 
 .movie-detail-page {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .movie-detail-page img {
-  width: 500;
-  height : auto;
+    width: 500;
+    height: auto;
+}
+
+.responsive {
+    transition: 0.3s ease-in-out;
+}
+
+.responsive:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 10px 0px rgb(58, 185, 185);
 }
